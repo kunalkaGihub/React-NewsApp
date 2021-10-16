@@ -6,7 +6,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 const News = (props) => {
 
-  const [articles, setArticles] = useState([])
+  const [articles, setArticles] = useState([0])
   const [loading, setLoading] = useState(true)
   const [page, setPage] = useState(1)
   const [totalResults, setTotalResult] = useState(0)
